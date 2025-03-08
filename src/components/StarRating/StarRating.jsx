@@ -29,7 +29,7 @@ export const StarRating = ({ totalStars = 10 }) => {
                                 return (
                                     <GiRoundStar
                                         key={value}
-                                        className={`fs-1 pe-auto ${addStyleToStar(value) ? "text-warning" : "text-light"}`}
+                                        className={`fs-2 pe-auto ${addStyleToStar(value) ? "text-warning" : "text-light"}`}
                                         onClick={() => updateRating(value)}
                                         onMouseEnter={() => updateHover(value)}
                                         onMouseLeave={() => setHover(null)}

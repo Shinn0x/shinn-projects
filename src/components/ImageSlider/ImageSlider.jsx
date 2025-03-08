@@ -43,7 +43,6 @@ export const ImageSlider = () => {
             </div>
         </div>
     );
-    
 
     if (errMsg) return <div className="text-danger text-center">Unexpected error occurred! {errMsg}</div>;
 
