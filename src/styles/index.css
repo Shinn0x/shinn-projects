@@ -1,0 +1,33 @@
+@import url('./clash-display.css');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "ClashDisplay", sans-serif;
+  font-size: 16px;
+}
+
+.section-padding {
+  padding: 4rem 8rem; 
+  border-bottom: 3px solid #0f0e0e;
+}
+
+@media (max-width: 1024px) { /* Tablets */
+  .section-padding {
+    padding: 3rem 5rem;
+  }
+}
+
+@media (max-width: 768px) { /* Mobile devices */
+  .section-padding {
+    padding: 2rem 3rem;
+  }
+}
+
+@media (max-width: 480px) { /* Small mobile devices */
+  .section-padding {
+    padding: 1.5rem;
+  }
+}
+

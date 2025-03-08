@@ -1,0 +1,8 @@
+.arrow{
+    padding: 8px;
+    margin: 0 24px;
+}
+
+.squareContainer * {
+    opacity: 0.65;
+}
