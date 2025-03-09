@@ -23,6 +23,7 @@ export const Navbar = () => {
                                 <li><a className="dropdown-item" href="#starRating">Rating</a></li>
                                 <li><a className="dropdown-item" href="#imageSlider">Image Slider</a></li>
                                 <li><a className="dropdown-item" href="#loadMoreData">Load More Data</a></li>
+                                <li><a className="dropdown-item" href="#treeView">Tree View Navigation</a></li>
                             </ul>
                         </li>
                     </ul>

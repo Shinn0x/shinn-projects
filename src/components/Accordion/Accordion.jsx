@@ -36,7 +36,7 @@ export const Accordion = () => {
         <>
             <section id="accordion" className="section-padding mh-100 m-auto d-flex align-items-center  bg-secondry vh-100">
                 <div className="container">
-                    <h1 className='display-3 text-center fw-bold'>FAQs</h1>
+                    <h1 className='display-3 text-center fw-bold'>Accordions</h1>
                     <div className="d-flex flex-column justify-content-center align-items-center">
                         <p className='text-center text-light bg-info rounded-3 p-3'>Select Muliple Items : {selectMultiple ? "True" : "False"}</p>
                         <button className='btn border bg-info fw-bold' onClick={()=>setSelectMultiple(prevState=>!prevState)}>Change</button>

@@ -4,6 +4,7 @@ import { LoadMoreData } from "./components/LoadMoreData/LoadMoreData";
 import { Navbar } from "./components/Navbar/Navbar";
 import { RandomColor } from "./components/RadomColor/RandomColor";
 import { StarRating } from "./components/StarRating/StarRating";
+import { TreeView } from "./components/TreeView/TreeView";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <StarRating />
       <ImageSlider />
       <LoadMoreData />
+      <TreeView />
     </>
   );
 }
