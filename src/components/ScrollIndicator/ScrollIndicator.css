@@ -1,0 +1,22 @@
+#scrollIndicator .itemsContainer {
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+/* Custom Scrollbar */
+ .itemsContainer::-webkit-scrollbar {
+    width: 8px; 
+    border-radius: 16px;
+}
+
+.scroll-progress-bar {
+    height: 6px;
+    transition: width 0.2s ease-in-out;
+}
+
+.scrollbarContainer{
+    height: 6px;
+    background-color: #7f7f7f;
+}
+
+

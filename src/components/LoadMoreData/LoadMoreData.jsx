@@ -43,6 +43,8 @@ export const LoadMoreData = () => {
 
     const filteredProducts = selectedCategory === "all" ? products : products.filter(product => product.category === selectedCategory);
 
+    if (loading) return <div className="text-info text-center">Loading...</div>;
+
     if (error) return <div className="text-danger text-center">Error: {error.message}</div>;
 
     return (
