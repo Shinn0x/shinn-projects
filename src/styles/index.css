@@ -8,6 +8,10 @@
   font-size: 16px;
 }
 
+body{
+  margin-bottom: 5rem;
+}
+
 .section-padding {
   padding: 4rem 8rem; 
   border-bottom: 3px solid #0f0e0e;
