@@ -3,7 +3,7 @@ import { useFetch } from '../../customHooks/useFetch';
 import './LoadMoreData.css'
 
 export const LoadMoreData = () => {
-    const limit = 50;
+    const limit = 12;
     // const [skip, setSkip] = useState(0);
     const [products, setProducts] = useState([]);
     const { loading, error, fetchData } = useFetch();
@@ -50,7 +50,7 @@ export const LoadMoreData = () => {
             <div className="container">
                 <h1 className='text-center display-3 fw-bold'>Load More Products</h1>
                 <div className="d-flex gap-4 align-items-center mt-5 mb-3">
-                    <p className='text-muted fs-5 mb-0'>Total Products : {total}</p>
+                    <p className='text-muted fs-5 mb-0'>In Our Store : {total} Products</p>
                     <select className="text-uppercase" onChange={(e) => setSelectedCategory(e.target.value)}>
                         <option className="text-uppercase" value="all">All Products</option>
                         {categories.map((category, index) =>
@@ -68,7 +68,7 @@ export const LoadMoreData = () => {
                                     src={product.images[0]}
                                     className="card-img-top"
                                     alt={product.title}
-                                    style={{ height: '300px', objectFit: 'fill' }}
+                                    style={{ height: '250px', objectFit: 'fill' }}
                                 />
                                 <div className="card-body">
                                     <h5 className="card-title">{product.title}</h5>

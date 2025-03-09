@@ -5,7 +5,10 @@ export const Navbar = () => {
         <>
             <nav className='navbar navbar-expand-lg navbar-light bg-light shadow-lg position-fixed top-0 start-0 w-100' style={{ zIndex: 9999 }}>
                 <div className='container'>
-                    <p className="navbar-brand active fs-3 fw-bold">ShinnTheByte</p>
+                    <p className="navbar-brand p-0 m-0">
+                        <img src="/assets/images/logo.svg" style={{width: "150px", height:"auto"}} alt="Shinn Logo" />
+                    </p>
+
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item dropdown">
                             <a
